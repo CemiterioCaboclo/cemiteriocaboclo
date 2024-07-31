@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/02.css" media="screen"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <title>Página Inicial</title>
+    <link rel="shortcut icon" type="imagex/png" href="./imagens/iconesite.png">
+</head>
+<body>
+    <div id="navbar" class="navbar">
+        <div style="margin-top: -33px;">
+            <img src="imagens/logofinal.png" class="logo" style="margin-top: 20px; margin-left: 20px;">
+        </div>
+        <div style="margin-left: -20px; color:black; margin-top: 2px;">
+            <h1 style="font-size: 27px; margin-left: 0px;">Cemitério Caboclo - Projeto<h1>
+        </div>
+        <div style="text-align: right; margin-top: -5px;"> <!-- Botões -->
+            <a href="pagina_inicial.html"><button class="botões" style="font-weight: bolder;">Projeto</button></a>
+            <a href="metodologia.html"><button class="botões" >Metodologia</button></a>
+            <a href="artigos.html"><button class="botões">Artigos</button></a>
+            <a href="resultados.html"><button class="botões">Resultados</button></a>
+        </div>
+    </div>
+    <img style="margin-top: -60px; margin-bottom: -80px;" src="imagens/cemiterio2++.jpg" class="banner">
+    <button id="scroll" style="margin-top: -200px" class="scroll" onclick="scrollToH1()">
+        ▼
+    </button>
+    <!-- Aqui é pós o cabeçário e imagem -->
+
+
+    <h1 style="margin-top: 100px;"class="txt01" id="titulo1">“Um campo santo no IFC – Concórdia: O Cemitério Caboclo”</h1>
+    <div class="div08" style="margin-bottom: 30px;"><img src="imagens/linhas.png" class="img09"></img></div>
+    
+
+    <div class="div02">
+        <p class="txt02">No coração do IFC – Campus Concórdia, encontra-se
+            um cemitério que foi utilizado por antigos moradores de Fragosos e, que leva o nome de “Cemitério Caboclo”.
+        </p>
+        <img src="imagens/primeira.jpg" class="img02" style="margin-top: -15px;">
+    </div>
+    <div class="div03">
+        <img src="imagens/segunda.jpg" class="img03" style="margin-top: -30px;">
+        <p class="txt03">Para conhecer mais sobre a história desse local, professores, técnicos em educação e estudantes
+            do IFC desenvolveram o projeto: “Cemitério caboclo: resgate de fontes orais e documentais do início da
+            colonização
+            e da história de Concórdia – SC”.</p>
+    </div>
+    <div class="div04">
+        <p class="txt04">Durante os últimos anos foram realizadas entrevistas com antigos moradores da localidade de
+            Fragosos na busca de elementos que tragam para o presente as memórias do passado.</p>
+        <img src="imagens/terceira.jpg" class="img04" style="margin-top: -45px;">
+    </div>
+    <div class="div05">
+        <p class="txt05">Esse material constitui o lastro onde se assenta esse blog e suas informações. As falas sobre a
+            história de Fragosos são o que o leitor encontrará nas páginas dessa forma eleita para a socialização do
+            saber acumulado por pessoas que viveram ou ouviram os relatos de outrora e que reconhecemos, hoje, como fios
+            que nos auxiliam a compor a trama da história local.</p>
+        <p class="txt05">Desejamos uma boa leitura a todos!</p>
+    </div>
+
+
+    <p class="d-inline-flex gap-1"  style="width: 100%; background-color: rgb(217, 217, 217); margin-top: 2vw;">
+        <a id="dropDown" onclick="dropDown()" style="background-color: rgb(217, 217, 217); margin-left: auto; margin-right: auto; border: none; color: black; font-size: 1.5vw; height: 3vw;" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            ▼ Cemitério caboclo
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body" style="border: none;">
+            <div class="div06">
+                <p class="txt07">O Cemitério Caboclo está localizado nos domínios do IFC – Campus Concórdia.</p>
+                <p class="txt08">Esse Campo Santo é patrimônio tombado pelo município de Concórdia desde o ano de 2005. Hoje
+                    passa por um processo de revitalização almejando manter-se como um bem representativo da história de
+                    Fragosos e do município de Concórdia.</p>
+                <p class="txt09">Segundo os relatos dos entrevistados, o cemitério recebeu sepultamentos até aproximadamente
+                    o ano de 1946 e que lá havia em torno de 10 a 20 sepulturas, entre elas o túmulo do Coronel Fragoso que
+                    junto com algumas famílias se fixaram nas terras do bairro que hoje leva seu nome, no início do século
+                    XX e que tem sua história ligada à Guerra do Contestado.</p>
+                </div>
+                <img class="img07" src="imagens/ilustração.jpeg">
+        </div>
+      </div>
+      <div class="footer">
+        <img src="imagens/logo IFC horizontal.png" style="height: 120px; margin: 40px;">
+        <div style="width: 80%;">
+            <a href="#01" style="float: right; margin: 40px; text-decoration: none; color: #fff;">
+                <p onclick="scrollToStart()">Voltar</p>
+            </a>
+            <a href="contato.html">
+                <p style="float: right; margin-top: 85px; margin-right: -90px; text-decoration: none; color: #fff;" >Contato</p>
+            </a>
+            <a href="participantes.html">
+                <p style="float: right; margin-top: 130px; margin-right: -90px; text-decoration: none; color: #fff;" >Participantes</p>
+            </a>
+            <a href="referencias.html">
+                <p style="float: right; margin-top: 175px; margin-right: -105px; text-decoration: none; color: #fff;">Referências Bibliográficas</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
